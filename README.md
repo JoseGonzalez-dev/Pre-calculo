@@ -41,8 +41,8 @@ Modelamos una plataforma en la nube con tres tipos de funciones para proyectar s
 2. **Descargar el proyecto.** Con Git:
 
    ```powershell
-   git clone <URL-del-repositorio>
-   cd <carpeta-del-repositorio>
+   git clone https://github.com/JoseGonzalez-dev/Pre-calculo.git
+   cd Pre-calculo
    ```
 
    O desde GitHub con **Code → Download ZIP**, descomprimir y abrir PowerShell dentro de la carpeta (clic derecho en la carpeta → *Abrir en Terminal*).
@@ -83,8 +83,8 @@ Cada vez que abras una terminal nueva, hay que volver a activar el entorno con `
 ## Instalación en Linux / macOS
 
 ```bash
-git clone <URL-del-repositorio>
-cd <carpeta-del-repositorio>
+git clone https://github.com/JoseGonzalez-dev/Pre-calculo.git
+cd Pre-calculo
 
 python3 -m venv venv
 source venv/bin/activate
@@ -136,9 +136,11 @@ Genera `tablas_proyecto.xlsx` con las hojas `Parámetros`, `Resultados`, `Usuari
 ```
 .
 ├── proyecto.py            # cálculos, gráficas interactivas y exportación a Excel
+├── tablas_proyecto.xlsx   # tablas de valores ya generadas (se regenera con --excel)
 ├── requirements.txt       # dependencias
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ## Notas
